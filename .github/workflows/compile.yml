@@ -1,0 +1,38 @@
+on:
+  push:
+    tags:
+    - 'v*'
+
+name: Compile resume
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Compile resume
+      uses: xu-cheng/latex-action@v2
+      with:
+        root_file: ktk_resume.tex
+        latexmk_use_xelatex: true
+
+    - name: Create release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+    - name: Upload release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./ktk_resume.pdf
+        asset_name: ktk_resume.pdf
+
