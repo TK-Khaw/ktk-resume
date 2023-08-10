@@ -35,4 +35,5 @@ jobs:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./ktk_resume.pdf
         asset_name: ktk_resume.pdf
+        asset_content_type: application/pdf
 
