@@ -20,7 +20,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4
 
 
 \begin{document}
@@ -32,8 +32,7 @@
 \lastupdated % Print the Last Updated text at the top right
 
 \namesection{TengKang}{Khaw}{ % Your name
-%\urlstyle{same}\url{http://debarghyadas.com} \\ % Your website, LinkedIn profile or other web address
-\href{mailto:t.kang\_khaw@hotmail.com}{t.kang\_khaw@hotmail.com} | (+60)18-2076193 | MY % Your contact information
+\href{mailto:t.kang\_khaw@hotmail.com}{t.kang\_khaw@hotmail.com} | (+60)18-2076193 | MY
 }
 
 %----------------------------------------------------------------------------------------
@@ -46,7 +45,7 @@
 % Education
 %------------------------------------------------
 
-\section{Education} 
+\section{Education}
 
 \subsection{Universiti Sains Malaysia}
 \descript{BEng in Mechatronic Engineering}
@@ -70,7 +69,7 @@
 % Links
 %------------------------------------------------
 
-\section{Links} 
+\section{Links}
 
 Github:// \href{https://github.com/TK-Khaw}{\bf TK-Khaw} \\
 LinkedIn:// \href{https://www.linkedin.com/in/teng-kang-khaw-326657132/}{\bf TengKang Khaw} \\
@@ -87,33 +86,36 @@ LinkedIn:// \href{https://www.linkedin.com/in/teng-kang-khaw-326657132/}{\bf Ten
 \section{Skills}
 
 \subsection{Hardware}
-Arduino \textbullet{} PLC {\footnotesize \textit{\textbf{OMRON CJ2M-CPU31}}}
+Yocto/Barebox \textbullet{} Arduino
 \textbullet{} myRIO \textbullet{} FPGA \textbullet{} Raspberry Pi
 \textbullet{} Kinova Robotic Arm
 
 \sectionspace
 
-\subsection{CAD}
-Solidworks \textbullet{} OpenSCAD
-\textbullet{} Orcad Capture, Pspice, Layout 
-\textbullet{} LTSpice \textbullet{} Multisim 
-\textbullet{} LabVIEW {\footnotesize \textit{\textbf{CLAD 2018}}}
-
-\sectionspace
+% to be added back in the future
+% \subsection{CAD}
+% Solidworks \textbullet{} OpenSCAD
+% \textbullet{} Orcad Capture, Pspice, Layout
+% \textbullet{} LTSpice \textbullet{} Multisim
+% \textbullet{} LabVIEW {\footnotesize \textit{\textbf{CLAD 2018}}}
+% 
+% \sectionspace
 
 \subsection{Programming}
-C++ \textbullet{} Python \textbullet{} Bash and UNIX tools  
-Makefile \textbullet{} C\# 
-\textbullet{} Windows API \textbullet{} MFC  \textbullet{} x86 Assembly 
-\textbullet{} Django/Flask \textbullet{} JavaScript/TypeScript \textbullet{} SQL dialect 
-\textbullet{} OpenCV \textbullet{} ROS \textbullet{} Android 
+C++ \textbullet{} Python \textbullet{} Bash and UNIX tools
+Makefile \textbullet{} C\# \textbullet{} x86 Assembly
+\textbullet{} JavaScript/TypeScript
+\textbullet{} Django/FastAPI \textbullet{} React
+\textbullet{} SQL dialect
+\textbullet{} OpenCV \textbullet{} ROS
 
 
 \sectionspace
 
 \subsection{Databases}
-Redis \textbullet{} PostgreSQL \textbullet{} MongoDB
-\textbullet{} InfluxDB \textbullet{} ElasticSearch 
+Redis \textbullet{} PostgreSQL \textbullet{} MariaDB
+\textbullet{} MongoDB \textbullet{} InfluxDB
+\textbullet{} ElasticSearch
 
 \sectionspace
 
@@ -123,10 +125,17 @@ RADIUS \textbullet{} SNMP \textbullet{} XMPP
 
 \sectionspace
 
+\subsection{Networking}
+OPNSense \textbullet{} OpenWRT \textbullet{}
+Linux Networking Stack
+
+\sectionspace
+
 \subsection{Systems}
-Linux {\footnotesize \textit{\textbf{RHEL and Debian}}} \textbullet{} Kubernetes 
-\textbullet{} Docker \textbullet{} Google Cloud Platform {\footnotesize \textit{\textbf{App Scripts, App Engine, Compute Engine, PubSub}}} 
-\textbullet{} Jenkins \textbullet{} Ansible \textbullet{} Terraform 
+Linux {\footnotesize \textit{\textbf{RHEL, Debian, Embedded}}} \textbullet{} Proxmox
+\textbullet{} Kubernetes \textbullet{} Docker
+\textbullet{} Google Cloud Platform \textbullet{} Alibaba Cloud
+\textbullet{} Jenkins \textbullet{} Ansible \textbullet{} Terraform
 
 \sectionspace % Some whitespace after the section
 
@@ -152,7 +161,10 @@ Linux {\footnotesize \textit{\textbf{RHEL and Debian}}} \textbullet{} Kubernetes
 \location{Aug 2023 - Present | Klang, MY}
 \vspace{\topsep}
 \begin{tightitemize}
-\item Works on development of edge data aggregator and controller gateway for application in livestock farming.
+\item Works on development of ARM-based edge device that connects livestock farming to the cloud.
+\item Works on networking component to improve security and ensure resiliency.
+\item Improves observability with introduction and development of various diagnostics tools.
+\item Manages and improves lab automations and SDN to facilitate development works.
 \end{tightitemize}
 \sectionspace
 
@@ -195,10 +207,10 @@ source tools such as Apache Hadoop, Spark as well as Hortonworks Data Platform.
 
 \sectionspace % Some whitespace after the section
 
-\section{Open source contributions} 
+\section{Open source contributions}
 \vspace{\topsep}
 \begin{tightitemize}
-\item \href{https://github.com/bitnami/bitnami-docker-postgresql-repmgr}{PostgreSQL HA packaged by Bitnami} 
+\item \href{https://github.com/bitnami/bitnami-docker-postgresql-repmgr}{PostgreSQL HA packaged by Bitnami}
 \item \href{https://github.com/bitnami/charts}{The Bitnami Library for Kubernetes}
 \item \href{https://github.com/bitkeks/python-netflow-v9-softflowd}{Python NetFlow/IPFIX library}
 \end{tightitemize}
@@ -227,7 +239,7 @@ English \textbullet{} Malay \textbullet{} Mandarin
 \hfill
 \begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
 
-\section{Achievements and Involvements} 
+\section{Achievements and Involvements}
 
 \begin{tabular}{rlp{0.66\textwidth}}
 2020	 & University & USM Chancellor's Gold Medal Award for the best final year student in all fields\\
@@ -243,13 +255,13 @@ English \textbullet{} Malay \textbullet{} Mandarin
 \section{Notable Projects}
 
 \runsubsection{Implementation of Cooperative Control on 7-DOF Robot Arm For Anthropomorphic Maneuver\hspace{0.2\textwidth}}
-\location{Nov 2021 - Ongoing}
+\location{Nov 2021 - Jul 2024}
 \vspace{\topsep}
 \begin{tightitemize}
 \item An inter-university collaborative research project involving researchers from Universiti Sains Malaysia and University of Manchester.
 \item Involved as research assistant tasked with the job of translating control laws in mathematical formulation into actual code.
 \item Cooperative anthropomorphic maneuver is developed with the principle of multi-agent based control and null-space control.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \runsubsection{Distbuted Cooperative Control of Multi-Robot Arms System for Choreographed Motion}
@@ -257,22 +269,22 @@ English \textbullet{} Malay \textbullet{} Mandarin
 \vspace{\topsep}
 \begin{tightitemize}
 \item Developed as Final Year Project.
-\item System consisted of 3 independent Raspberry Pi connected to the same subnet controlling individual robot arm in a Gazebo simulation running on computer using hardware-in-a-loop concept. 
-The entire system is built by leveraging ROS as robotic middleware. 
+\item System consisted of 3 independent Raspberry Pi connected to the same subnet controlling individual robot arm in a Gazebo simulation running on computer using hardware-in-a-loop concept.
+The entire system is built by leveraging ROS as robotic middleware.
 Synchronization of motions between robot arms are achieved through implementation of modified first-order consensus dynamic model.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \runsubsection{Automated Nursery Irrigation System with IoT Monitoring System}
 \location{Sep 2019 - Dec 2019}
 \vspace{\topsep}
 \begin{tightitemize}
-\item An irrigation system is developed by exploiting the relationship between pressure and radial water distribution profile to maximize efficacy of conventional water sprinkler. 
+\item An irrigation system is developed by exploiting the relationship between pressure and radial water distribution profile to maximize efficacy of conventional water sprinkler.
 The project is developed as capstone project.
-\item Pressure inside irrigation pipes are regulated using PID algorithm. 
+\item Pressure inside irrigation pipes are regulated using PID algorithm.
 The telemetry reporting and control of the system is made scalable by development of a communication backbone based on Google Cloud Platform.
 Sensors and valve control exists as individual nodes connected wirelessly to manifest the actual system itself.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \runsubsection{2-DOF Agriculture Lab-based General-Purpose Robotic Arm}
@@ -280,9 +292,9 @@ Sensors and valve control exists as individual nodes connected wirelessly to man
 \vspace{\topsep}
 \begin{tightitemize}
 \item An articulated robot with 2 joints is built as academic project with intention for precision operation in lab-based farm. To achieve generality the end-effector is modular and can be designed according to user needs.
-\item Robot joints is controlled by a microcontroller, which do trajectory planning online. 
+\item Robot joints is controlled by a microcontroller, which do trajectory planning online.
 The microcontroller maintains serial communication through specially designed protocol for instruction parsing with computer that hosts GUI control panel for which the user can send desired path as command to the robot.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \end{minipage} % The end of the right column
@@ -302,7 +314,7 @@ The microcontroller maintains serial communication through specially designed pr
 \begin{tightitemize}
 \item A 1-DOF robot with gaiting mechanism provided by Klann Linkage is developed to fulfill academic requirement.
 \item DC motor with hall encoder speed controlled using PID algorithm deployed on Arduino Uno is used to power the movement of the walking robot through a belt-and-pulley transmission.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \runsubsection{IEEE USM SB Registration Management System}
@@ -311,9 +323,9 @@ The microcontroller maintains serial communication through specially designed pr
 \begin{tightitemize}
 \item A web application front-end that uses Google Sheet as its backend.
 \item Provide ease of data manipulation for authorized personnel whilst a coded front-end to restrict user interaction to the database in only intended manner.
-\item Ease member registrations process and complicated manual process by automating task with Google App Script. 
+\item Ease member registrations process and complicated manual process by automating task with Google App Script.
 Designed as such it is scalable to use as IEEE USM SB main registration method in the future.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \runsubsection{Smart CCTV System}
@@ -321,33 +333,33 @@ Designed as such it is scalable to use as IEEE USM SB main registration method i
 \vspace{\topsep}
 \begin{tightitemize}
 \item A software solution that is easily scalable with existing CCTVs infrastructure implemented throughout the factories.
-\item Used transferred learning to train a Convolutional Neural Network that could detect presences of ESD object through video feed. 
+\item Used transferred learning to train a Convolutional Neural Network that could detect presences of ESD object through video feed.
 A factory wide alert system as well as a Human Resources Management Dashboard is developed to present detection and finding of the detection system.
-\item Used Long Polling method to allow real-time update on dashboard as well as alert system. 
-Server resides in cloud enables horizontal scalability as well as cost reduction. 
+\item Used Long Polling method to allow real-time update on dashboard as well as alert system.
+Server resides in cloud enables horizontal scalability as well as cost reduction.
 REST API written in the form of PHP as well as a Python API for the integration of the detection system is also developed.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \runsubsection{Gear Manufacturing Quality Control System}
 \location{May 2018}
 \vspace{\topsep}
 \begin{tightitemize}
-\item Academic project to fulfill requirement for Mechatronic Design. 
+\item Academic project to fulfill requirement for Mechatronic Design.
 Used PLC to interact with pneumatic actuator, DC motor, and proximity sensors to build a gear manufacturing quality control system that resemble optical encoder in its principle of operation.
 \item Intended to reduce costs of gear manufacturing industry through a centralized quality control station, that is capable to converge all products from all models and redistribute accordingly.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \runsubsection{Door Access Control System}
 \location{May 2018}
 \vspace{\topsep}
 \begin{tightitemize}
-\item Academic project to fulfill requirement for Microprocessor I. 
+\item Academic project to fulfill requirement for Microprocessor I.
 Used 8051 microcontroller with peripherals such as 8255 for building an electronics door access control and lecturer presence detection.
 \item Used method such as polling, external interrupt, and timer interrupt to orchestrate the entire system.
 Notably timer interrupt is used to generate servo motor control signal and external interrupt to detect motion with PIR sensor.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \end{minipage}
@@ -362,17 +374,17 @@ Notably timer interrupt is used to generate servo motor control signal and exter
 \vspace{\topsep}
 \begin{tightitemize}
 \item A system that uses automated license plate recognition to detect car plate of parking space user and stored
-in databases for fee payment regulation and abolishes the use of paper ticketing system uses in conventional parking space. 
+in databases for fee payment regulation and abolishes the use of paper ticketing system uses in conventional parking space.
 The system also registers empty spaces to inform user through an android client designed for this system.
-\item Program is developed to register incoming car into database. 
-The program detects the license plate and generate a QR code for the user to scan with his android client as ‘e-ticket’. 
-The program also detects outgoing car and make sure that they have paid their fee before exiting. 
+\item Program is developed to register incoming car into database.
+The program detects the license plate and generate a QR code for the user to scan with his android client as ‘e-ticket’.
+The program also detects outgoing car and make sure that they have paid their fee before exiting.
 The program is developed in C++ with the help of third-party libraries.
-\item The accumulated fee of each car and payment is registered by an updater program in a computer. 
+\item The accumulated fee of each car and payment is registered by an updater program in a computer.
 GUI interface is implemented to display the database to operator and the program will update the fee in periodic interval. The program is developed in C\#.
-\item An Android client to allow user to pay their parking fee as well as displaying empty lot is also developed in Java. 
+\item An Android client to allow user to pay their parking fee as well as displaying empty lot is also developed in Java.
 Which is isolated from the database for security through a PHP implemented REST API.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \runsubsection{Wind Tunnel}
@@ -380,20 +392,20 @@ Which is isolated from the database for security through a PHP implemented REST 
 \vspace{\topsep}
 \begin{tightitemize}
 \item Academic Project that requires the use of Altera DE2-115 FPGA development board to control stepper motor and DC motor. Analog circuitry and Digital logic is implemented to make this project feasible.
-\item Stepper Motor is used to direct the DC motor fan for the vector of wind inside the wind tunnel. 
+\item Stepper Motor is used to direct the DC motor fan for the vector of wind inside the wind tunnel.
 Flaperon like structure is implemented inside the tunnel to create turbulent test condition for the researcher using the wind tunnel.
 \item Control of Stepper Motor and DC motor is implemented with FPGA. RAM is also used to display static information on the LCD on the development board. Darlington Transistor is also used as motor driving circuit.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \runsubsection{USMKKJ Makerthon Grading System}
 \location{Nov 2017}
 \vspace{\topsep}
 \begin{tightitemize}
-\item A website that requires login from judges to identify their identity, which then is presented to them the assessment form for each presenting group, 
+\item A website that requires login from judges to identify their identity, which then is presented to them the assessment form for each presenting group,
 where their response will be stored in database and are free to be retrieved by the admin instantly to produce the ranking of presenting groups.
 \item Involved knowledge in HTML, CSS, JavaScript, PHP and SQL.
-\end{tightitemize} 
+\end{tightitemize}
 \sectionspace % Some whitespace after the section
 
 \end{minipage}
